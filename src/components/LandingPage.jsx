@@ -16,6 +16,7 @@ export default function LandingPage(props) {
         onClickLogin={onClickLogin}
         onClickLogout={onClickLogout}
       />
+      <div>복습 열심히 합시다.</div>
     </div>
   );
 }
