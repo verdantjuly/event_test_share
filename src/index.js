@@ -1,11 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Toggle from "./components/Toggle";
-import Greeting from "./components/Greeting";
-import LoginControl from "./components/LoginControl";
+import LandingPage from "./components/LandingPage";
 const obj = {
   name: "한강",
   greet: function () {
@@ -22,7 +19,7 @@ greet();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <LoginControl />
+    <LandingPage />
   </React.StrictMode>
 );
 
