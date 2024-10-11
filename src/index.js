@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Toggle from "./components/Toggle";
 import Greeting from "./components/Greeting";
+import LoginControl from "./components/LoginControl";
 const obj = {
   name: "한강",
   greet: function () {
@@ -21,8 +22,7 @@ greet();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Greeting isLoggedIn={true} />
-    <Greeting isLoggedIn={false} />
+    <LoginControl />
   </React.StrictMode>
 );
 
